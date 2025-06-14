@@ -1,10 +1,12 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+
+@import "reset";
+
+
+
 
 body {
 	background-color: #F1F1F1;
+	margin-top: 70px;
 }
 
 nav, ul, li, h1 {
@@ -46,7 +48,7 @@ li {
 }
 
 .tranding {
-	font-size: 24px;
+	font-size: 44px;
 	font-weight: 700;
 	display: block;
 	font-family: "Roboto";
