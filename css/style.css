@@ -11,7 +11,7 @@ body {
 header {
   background-color: #F1F1F1;
   width: 3000px;
-  height: 60px;
+  height: 70px;
   position: fixed;
   box-sizing: border-box;
   z-index: 3;
@@ -247,81 +247,63 @@ footer {
   height: 201px;
   margin-top: 36px;
   position: relative;
+  display: flex;
+  justify-content: space-around;
 }
-
-.fotext1 {
+footer .fotext1 {
   width: 54px;
   height: 100px;
-  position: absolute;
-  margin-left: 137px;
   margin-top: 59px;
 }
-
-.fotext1 > h3 {
+footer .fotext1 h3 {
   color: #818687;
   font-weight: 700;
   font-size: 12px;
   font-family: "Roboto";
   font-optical-sizing: auto;
 }
-
-.fotext2 {
+footer .fotext2 {
   width: 54px;
   height: 100px;
-  position: absolute;
-  margin-left: 266px;
   margin-top: 59px;
 }
-
-.fotext2 > h3 {
+footer .fotext2 h3 {
   color: #818687;
   font-weight: 700;
   font-size: 12px;
   font-family: "Roboto";
   font-optical-sizing: auto;
 }
-
-.fotext3 {
+footer .fotext3 {
   width: 54px;
   height: 100px;
-  position: absolute;
-  margin-left: 417px;
   margin-top: 59px;
 }
-
-.fotext3 > h3 {
+footer .fotext3 h3 {
   color: #818687;
   font-weight: 700;
   font-size: 12px;
   font-family: "Roboto";
   font-optical-sizing: auto;
 }
-
-.fotext4 {
+footer .fotext4 {
   width: 249px;
   height: 100px;
-  position: absolute;
-  margin-left: 599px;
   margin-top: 59px;
 }
-
-.fotext4 > h3 {
+footer .fotext4 h3 {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 12px;
   font-family: "Roboto";
   font-optical-sizing: auto;
 }
-
-.geolab {
+footer .geolab {
   width: 249px;
   height: 100px;
-  position: absolute;
-  margin-left: 1264px;
   margin-top: 59px;
 }
-
-.geolab > img {
+footer .geolab img {
   width: 38px;
   height: 40px;
   display: inline-block;
