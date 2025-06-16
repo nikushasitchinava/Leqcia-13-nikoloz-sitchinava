@@ -16,6 +16,7 @@ header {
   box-sizing: border-box;
   z-index: 3;
   top: 0;
+  font-size: 11px;
 }
 header nav, header ul, header li, header h1 {
   display: inline-block;
@@ -43,9 +44,8 @@ header li img {
 .flexit {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin-left: 150px;
   /* Card 1 */
-  /* Bunch of Photos in lower section of page*/
   /* Small photos */
 }
 .flexit .tranding {
@@ -54,6 +54,9 @@ header li img {
   display: block;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 145px;
 }
 .flexit .happeningnow {
   font-size: 24px;
@@ -61,8 +64,11 @@ header li img {
   display: block;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 55px;
+  margin-left: 145px;
 }
 .flexit .cards {
+  justify-content: start;
   display: flex;
 }
 .flexit .cards .card {
@@ -87,6 +93,9 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  color: white;
+  left: 41px;
+  top: 32px;
 }
 .flexit .cards .card .text1 {
   font-size: 10px;
@@ -94,6 +103,8 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 68px;
+  margin-left: 37px;
 }
 .flexit .cards .card .text2 {
   font-size: 10px;
@@ -101,6 +112,8 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 88px;
+  margin-left: 37px;
 }
 .flexit .cards .card p {
   font-size: 10px;
@@ -108,6 +121,10 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  color: #8A8787;
+  margin-left: 23px;
+  margin-top: 118px;
+  display: inline-block;
 }
 .flexit .cards .clock {
   width: 16px;
@@ -137,6 +154,9 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  color: white;
+  left: 41px;
+  top: 32px;
 }
 .flexit .cards .card1 .text1 {
   font-size: 10px;
@@ -144,6 +164,8 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 68px;
+  margin-left: 37px;
 }
 .flexit .cards .card1 .text2 {
   font-size: 10px;
@@ -151,6 +173,8 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  margin-top: 88px;
+  margin-left: 37px;
 }
 .flexit .cards .card1 p {
   font-size: 10px;
@@ -158,6 +182,10 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  color: #8A8787;
+  margin-left: 23px;
+  margin-top: 118px;
+  display: inline-block;
 }
 .flexit .largephotodiv {
   height: 902px;
@@ -165,6 +193,7 @@ header li img {
   margin-top: 30px;
   display: inline-block;
   position: relative;
+  margin-left: 145px;
 }
 .flexit .largephotodiv h3 {
   font-size: 20px;
@@ -172,6 +201,11 @@ header li img {
   position: absolute;
   font-family: "Roboto";
   font-optical-sizing: auto;
+  display: inline-block;
+  z-index: 1;
+  color: white;
+  top: 203px;
+  left: 278px;
 }
 .flexit .bigphoto1 {
   width: 758px;

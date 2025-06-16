@@ -1,4 +1,4 @@
-
+@import "variables";
 @import "reset";
 
 body {
@@ -14,6 +14,7 @@ header {
 	box-sizing: border-box;
 	z-index: 3;
 	top: 0;
+	font-size: 11px;
 
 	nav, ul, li, h1 {
 		display: inline-block;
@@ -50,7 +51,7 @@ header {
 .flexit {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	margin-left: 150px;
 	
 	.tranding {
 		font-size: 44px;
@@ -58,6 +59,9 @@ header {
 		display: block;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		margin-left: 145px;
 	}
 
 	.happeningnow {
@@ -66,6 +70,8 @@ header {
 		display: block;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 55px;
+		margin-left: 145px;
 	}
 
 
@@ -78,9 +84,8 @@ header {
 
 
 	.cards {
-
+		justify-content: start;
 		display: flex;
-
 
 		.card {
 		width: 362px;
@@ -105,6 +110,9 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		color: $photo-text;
+		left: 41px;
+		top: 32px;
 		}
 
 		.text1 {
@@ -113,13 +121,18 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 68px;
+		margin-left: 37px;
 		}
+
 		.text2 {
 		font-size: 10px;
 		font-weight: 700;
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 88px;
+		margin-left: 37px;
 		}
 
 		p {
@@ -128,6 +141,10 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		color: $card-text;
+		margin-left: 23px;
+		margin-top: 118px;
+		display: inline-block;
 		}
 
 	}
@@ -164,6 +181,10 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		color: $photo-text;
+		left: 41px;
+		top: 32px;
+
 		}
 
 		.text1 {
@@ -172,6 +193,9 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 68px;
+		margin-left: 37px;
+
 		}
 
 		.text2 {
@@ -180,6 +204,9 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		margin-top: 88px;
+		margin-left: 37px;
+
 		}
 
 		p {
@@ -188,17 +215,14 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		color: $card-text;
+		margin-left: 23px;
+		margin-top: 118px;
+		display: inline-block;
 		}
-		}
+	  }
 	}
 	
-		
-
-
-
-
-	/* Bunch of Photos in lower section of page*/
-
 
 	.largephotodiv {
 		height: 902px;
@@ -206,6 +230,7 @@ header {
 		margin-top: 30px;
 		display: inline-block;
 		position: relative;
+		margin-left: 145px;
 
 		h3 {
 		font-size: 20px;
@@ -213,6 +238,11 @@ header {
 		position: absolute;
 		font-family: "Roboto";
 		font-optical-sizing: auto;
+		display: inline-block;
+		z-index: 1;
+		color: $photo-text;
+		top: 203px;
+		left: 278px;
 		}
 	}
 	
