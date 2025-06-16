@@ -1,239 +1,275 @@
 
 @import "reset";
 
-
-
-
 body {
-	background-color: #F1F1F1;
+	background-color: #e7e7e7;
 	margin-top: 70px;
-}
-
-nav, ul, li, h1 {
-	display: inline-block;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.home {
-	margin-left: 137px;
-	margin-top: 21px;
-	margin-right: 35px;
-}
-
-.headertext {
-	margin-right: 35px;
-}
-
-.contact {
-	margin-right: 29px;
 }
 
 header {
 	background-color: #F1F1F1;
 	width: 3000px;
 	height: 60px;
- 	position: fixed;
- 	z-index: 3;
- 	top: 0;
+	position: fixed;
+	box-sizing: border-box;
+	z-index: 3;
+	top: 0;
+
+	nav, ul, li, h1 {
+		display: inline-block;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+	}
+
+	.home {
+		margin-left: 137px;
+		margin-top: 21px;
+		margin-right: 35px;
+	}
+
+	.headertext {
+		margin-right: 35px;
+	}
+
+	.contact {
+		margin-right: 29px;
+	}
+
+	li {
+		img {
+			width: 32px;
+			height: 32px;
+			border-radius: 100px;
+			vertical-align: -11px;
+		}
+	}
+
 }
 
-li {
-    img {
-        width: 32px;
-        height: 32px;
-        border-radius: 100px;
-        vertical-align: -11px;
-    }
+
+.flexit {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	
+	.tranding {
+		font-size: 44px;
+		font-weight: 700;
+		display: block;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+	}
+
+	.happeningnow {
+		font-size: 24px;
+		font-weight: 700;
+		display: block;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+	}
+
+
+
+
+
+	/* Card 1 */
+
+
+
+
+	.cards {
+
+		display: flex;
+
+
+		.card {
+		width: 362px;
+		height: 357px;
+		background-color: white;
+		border-radius: 5px;
+		margin-left: 138px;
+		position: relative;
+		display: inline-block;
+		
+		.photo {
+		width: 362px;
+		height: 186px;
+		position: static;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		}
+
+		h3 {
+		font-size: 20px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+		.text1 {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+		.text2 {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+		p {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+	}
+
+
+	.clock {
+		width: 16px;
+		height: 16px;
+		margin-left: 40px;
+		margin-top: 115px;
+	}
+
+
+	.card1 {
+		width: 362px;
+		height: 357px;
+		background-color: white;
+		border-radius: 5px;
+		margin-left: 40px;
+		position: relative;
+		display: inline-block;
+
+		.photo {
+		width: 362px;
+		height: 186px;
+		position: static;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		}
+
+		h3 {
+		font-size: 20px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+		.text1 {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+		.text2 {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+
+		p {
+		font-size: 10px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+		}
+	}
+	
+		
+
+
+
+
+	/* Bunch of Photos in lower section of page*/
+
+
+	.largephotodiv {
+		height: 902px;
+		width: 758;
+		margin-top: 30px;
+		display: inline-block;
+		position: relative;
+
+		h3 {
+		font-size: 20px;
+		font-weight: 700;
+		position: absolute;
+		font-family: "Roboto";
+		font-optical-sizing: auto;
+		}
+	}
+	
+
+	.bigphoto1 {
+		width: 758px;
+		height: 430px;
+		border-radius: 5px;
+		position: absolute;
+	}
+
+	.bigphoto2 {
+		width: 758px;
+		height: 430px;
+		border-radius: 5px;
+		position: absolute;
+		margin-top: 472px;
+	}
+
+	/* Small photos */
+
+	.forest {
+		margin-left: 800px;
+		width: 362px;
+		height: 212px;
+		border-radius: 5px;
+	}
+
+	.spilo {
+		margin-left: 800px;
+		margin-top: 98px;
+		width: 362px;
+		height: 212px;
+		border-radius: 5px;
+	}
+
+	.building {
+		margin-left: 800px;
+		margin-top: 103px;
+		width: 362px;
+		height: 212px;
+		border-radius: 5px;
+	}
+
 }
 
-.tranding {
-	font-size: 44px;
-	font-weight: 700;
-	display: block;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
 
-.happeningnow {
-	font-size: 24px;
-	font-weight: 700;
-	display: block;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
 
-/* Card 1 */
 
-.card {
-	width: 362px;
-	height: 357px;
-	background-color: white;
-	border-radius: 5px;
-	margin-left: 138px;
-	position: relative;
-	display: inline-block;
-}
 
-.card > .photo {
-	width: 362px;
-	height: 186px;
-	position: static;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-}
-
-.card > h3 {
-	font-size: 20px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.card > .text1 {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.card > .text2 {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.clock {
-	width: 16px;
-	height: 16px;
-	margin-left: 40px;
-	margin-top: 115px;
-}
-
-.card > p {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-/* Card 2 and Card 3*/
-
-.card1 {
-	width: 362px;
-	height: 357px;
-	background-color: white;
-	border-radius: 5px;
-	margin-left: 40px;
-	position: relative;
-	display: inline-block;
-}
-
-.card1 > .photo {
-	width: 362px;
-	height: 186px;
-	position: static;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-}
-
-.card1 > h3 {
-	font-size: 20px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.card1 > .text1 {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.card1 > .text2 {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.card1 > p {
-	font-size: 10px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-/* Bunch of Photos in lower section of page*/
-
-.largephotodiv > h3 {
-	font-size: 20px;
-	font-weight: 700;
-	position: absolute;
-	font-family: "Roboto";
-    font-optical-sizing: auto;
-}
-
-.largephotodiv {
-	height: 902px;
-	width: 758;
-	margin-left: 138px;
-	margin-top: 30px;
-	display: inline-block;
-	position: relative;
-}
-
-.bigphoto1 {
-	width: 758px;
-	height: 430px;
-	border-radius: 5px;
-	position: absolute;
-}
-
-.bigphoto2 {
-	width: 758px;
-	height: 430px;
-	border-radius: 5px;
-	position: absolute;
-	margin-top: 472px;
-}
-
- /* Small photos */
-
-.forest {
-	margin-left: 800px;
-	width: 362px;
-	height: 212px;
-	border-radius: 5px;
-}
-
-.spilo {
-	margin-left: 800px;
-	margin-top: 98px;
-	width: 362px;
-	height: 212px;
-	border-radius: 5px;
-}
-
-.building {
-	margin-left: 800px;
-	margin-top: 103px;
-	width: 362px;
-	height: 212px;
-	border-radius: 5px;
-}
 
 /* Footer */
+
+
+
+
+
 
 footer {
 	background-color: #243043;
